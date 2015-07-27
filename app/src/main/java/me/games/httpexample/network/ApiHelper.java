@@ -141,12 +141,8 @@ public class ApiHelper {
         } catch (IOException e) {
             e.printStackTrace();
         }
-            /*URL url = new URL(CATEGORY_URL);
 
-            URLConnection connection = url.openConnection();
-            connection.connect();
-            InputStream inputStream = connection.getInputStream();*/
-
+       //read input
         InputStreamReader reader = null;
         try {
             reader = new InputStreamReader(is, "utf-8");
